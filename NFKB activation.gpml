@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NFKB activation" Version="20190717" Organism="Homo sapiens">
+  <Graphics BoardWidth="1694.5076452599394" BoardHeight="1624.8623853211006" />
+  <DataNode TextLabel="IKBKG" GraphId="fe334" Type="GeneProduct" GroupRef="cf245">
+    <Graphics CenterX="221.8628855552705" CenterY="125.83401889857578" Width="62.847404627892274" Height="25.000000000000114" ZOrder="33302" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000269335" />
+  </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="eb59f" Type="GeneProduct" GroupRef="cf245">
+    <Graphics CenterX="221.8628855552705" CenterY="75.83401889856202" Width="62.847404627892274" Height="25.0" ZOrder="33303" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000104365" />
+  </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="c4cfb" Type="GeneProduct" GroupRef="cf245">
+    <Graphics CenterX="221.8628855552705" CenterY="100.83401889856202" Width="62.847404627892274" Height="25.0" ZOrder="33304" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000213341" />
+  </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="a7ee0" Type="GeneProduct" GroupRef="a5f32">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="89.97452291495301" CenterY="191.25244788602822" Width="50.0" Height="25.0" ZOrder="33308" FontSize="12" Valign="Middle" />
+    <Xref Database="Entrez Gene" ID="4790" />
+  </DataNode>
+  <DataNode TextLabel="RELA" GraphId="c987b" Type="GeneProduct" GroupRef="a5f32">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="89.97452291495301" CenterY="216.25244788602822" Width="50.0" Height="25.0" ZOrder="33309" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000173039" />
+  </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="b1b56" Type="GeneProduct" GroupRef="aea68">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="268.55919065787407" CenterY="351.78021213138754" Width="50.0" Height="25.0" ZOrder="33310" FontSize="12" Valign="Middle" />
+    <Xref Database="Entrez Gene" ID="4790" />
+  </DataNode>
+  <DataNode TextLabel="RELA" GraphId="babd9" Type="GeneProduct" GroupRef="aea68">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="268.55919065787407" CenterY="376.780212131388" Width="50.0" Height="25.0" ZOrder="33311" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000173039" />
+  </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="ec4a3" Type="GeneProduct" GroupRef="b400f">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="307.9932991850069" CenterY="192.25244788602822" Width="55.0" Height="25.0" ZOrder="33312" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000100906" />
+  </DataNode>
+  <DataNode TextLabel="NFKBIB" GraphId="b3f81" Type="GeneProduct" GroupRef="b400f">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="307.9932991850069" CenterY="217.25244788602822" Width="55.0" Height="25.0" ZOrder="33313" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000104825" />
+  </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="f6414" Type="GeneProduct" GroupRef="a5f32">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="140.97452291495347" CenterY="191.25244788602822" Width="50.0" Height="25.0" ZOrder="33316" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000100906" />
+  </DataNode>
+  <DataNode TextLabel="NFKBIB" GraphId="e1cd5" Type="GeneProduct" GroupRef="a5f32">
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NFKB1 | nuclear factor of kappa light polypepti..." />
+    <Graphics CenterX="140.97452291495347" CenterY="216.25244788602822" Width="50.0" Height="25.0" ZOrder="33317" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000104825" />
+  </DataNode>
+  <DataNode TextLabel="Ubiquitin-mediated &#xA;proteolysis" GraphId="a0a70" Type="Pathway">
+    <Graphics CenterX="463.872851808866" CenterY="204.44890065393713" Width="113.66666666667038" Height="29.5" ZOrder="33319" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP183" />
+  </DataNode>
+  <State GraphRef="eb59f" TextLabel="P" GraphId="b19b0">
+    <Comment>parentid=O14920; parentsymbol=IKBKB; site=DQGsLCtsFVGTLQy; position=ser181; sitegrpid=447489; ptm=p; direction=u</Comment>
+    <Graphics RelX="0.9681768879424473" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ec4a3" TextLabel="P" GraphId="ac7f0">
+    <Comment>parentid=P25963; parentsymbol=NFKBIA; site=RHDsGLDsMkDEEyE; position=ser36; sitegrpid=448204; ptm=p; direction=d</Comment>
+    <Graphics RelX="-0.9636363636363636" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ec4a3" TextLabel="P" GraphId="d26f4">
+    <Comment>parentid=P25963; parentsymbol=NFKBIA; site=LLDDRHDsGLDsMkD; position=ser32; sitegrpid=448203; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <Interaction GraphId="c76fd">
+    <Graphics ZOrder="33301" LineThickness="1.0">
+      <Point X="221.8628855552705" Y="150.33401889857583" GraphRef="fbeb5" RelX="0.0" RelY="1.0" />
+      <Point X="222.00827009331738" Y="204.21832090000538" GraphRef="a903c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e28fe">
+    <Graphics ZOrder="33306" LineThickness="1.0">
+      <Point X="177.97452291495347" Y="203.75244788602822" GraphRef="b54fc" RelX="1.0" RelY="0.0" />
+      <Point X="272.4932991850069" Y="204.75244788602822" GraphRef="c28a8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.459706997074232" Shape="None" GraphId="cf068" />
+      <Anchor Position="0.46587301397717323" Shape="None" GraphId="a903c" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="de3bf">
+    <Graphics ConnectorType="Curved" ZOrder="33307" LineThickness="1.0">
+      <Point X="222.00827009331738" Y="204.21832090000538" GraphRef="a903c" RelX="0.0" RelY="0.0" />
+      <Point X="245.28373037559572" Y="204.0" />
+      <Point X="268.55919065787407" Y="327.28021213138754" GraphRef="e0856" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="c6e7c">
+    <Graphics ZOrder="33318" LineStyle="Broken" LineThickness="1.0">
+      <Point X="407.0395184755308" Y="204.44890065393713" GraphRef="a0a70" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="343.4932991850069" Y="204.75244788602822" GraphRef="c28a8" RelX="1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Group GroupId="b400f" GraphId="c28a8" Style="Group" />
+  <Group GroupId="a5f32" GraphId="b54fc" Style="Complex" />
+  <Group GroupId="cf245" GraphId="fbeb5" Style="Complex" />
+  <Group GroupId="aea68" GraphId="e0856" Style="Complex" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
